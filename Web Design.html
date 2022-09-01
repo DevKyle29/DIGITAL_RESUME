@@ -6,15 +6,20 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
-<body>
+<body id="bottom">
 
     <header id="heading">
         <H1>Kyle Fry</h1>
         <p>An introductory personal statement.</p>
         <div id="anime">
-        <img src="images/kyle.jpg" 
+            <picture>
+                <source media="(max-width: 650px)" srcset="images/kyleSmall.jpg">
+                <source media="(max-width: 1400px)" srcset="images/kyleMed.jpg">
+                <img src="images/kyle.jpg" 
         alt=" some backup text"
         id="profilePhoto">
+            </picture>
+            
         </div>
     </header>
 
@@ -100,8 +105,8 @@
 
     <footer>
         <h2 id="Contact Details">Contact Details</h2>
-        <a href="https://www.linkedin.com/in/kyle-fry-370651247/"><img class="icons" src="images/linkedin.jpg"></a>
-        <a href="kylebrentfry@gmail.com"><img class="icons" src="images/gmail.jpg"></a>
+      <button class="joinBtn">  <a href="https://www.linkedin.com/in/kyle-fry-370651247/"><img class="icons" src="images/linkedin.jpg"></a>
+        <a href="kylebrentfry@gmail.com"><img class="icons" src="images/gmail.jpg"></a></button>
     </footer>
 
 </body>
