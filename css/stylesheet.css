@@ -6,12 +6,8 @@ body{
   display: flex;
   flex-direction: column;
   background-image:url(../images/pexels-martin-sanchez-4325680.jpg); 
-
-  
-  
 }
-
-
+/*This is a comment*/
 
 .main{
   display:flex ;
