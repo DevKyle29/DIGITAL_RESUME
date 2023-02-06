@@ -33,20 +33,12 @@ header {
  justify-content: center;
 }
  
-
 #heading{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 110%;
   background-color: #a8f0f9;
   color: black;
 }
-
-footer {
-  background-color:#7ae9f8;
-  text-align:center;
-  color: black;
-}
-
 
 #sidebar {
        width:15%;
@@ -69,12 +61,11 @@ footer {
 
 }
 .icons{
-  hover
-  width:3rem ;
-  margin: 3rem;
-  height: 3rem;
-
-}
+  text-align: center;
+  width: 8%;
+  length:8%;
+  }
+  
 
 @keyframes icons{
   50%{transform: rotateY(360deg);}
@@ -86,10 +77,16 @@ footer {
   animation-direction:alternate-reverse;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  background-image:url(../images/pexels-martin-sanchez-4325680.jpg) ;
+}
+
+#Button{
+  text-align: center;
+  padding: 1rem;
 }
 
 #content{
-  padding: 1rem;s
+  padding: 1rem;
   text-align: unset;
 }
 
@@ -105,15 +102,9 @@ footer {
   
 }
 
-.joinBtn{
-  background-color:#7ae9f8 ;
-  border: #7ae9f8;
-  cursor:pointer;
-}
-
-.joinBtn:hover {
-  background-color: #7ae9f8;
-  
+footer {
+  text-align: center;
+ 
 }
 
 @media only screen and (max-width: 600px) {
